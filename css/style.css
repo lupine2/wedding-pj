@@ -1,0 +1,142 @@
+/* style.css */
+@font-face { font-family: 'Chosunilbo_myungjo'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Chosunilbo_myungjo', serif;
+    color: #333;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.box{
+    position: relative;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    margin-top: 1em;
+    font-family: 'NanumSquare', sans-serif;
+}
+header .box img{
+    width: 100%;
+}
+
+/* guest */
+#guest .container{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#guest .container p{
+    line-height: 1.4;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+#guest .container p:first-child{
+    font-size: 18px;
+}
+
+/* visual */
+#visual .slider{
+    width: 100%;
+}
+#visual .slider img{
+    width: 100%;
+}
+.bx-wrapper{
+    border: none !important;
+}
+
+/* info */
+#info{
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 20px;
+    margin-bottom: 2.5em;
+    font-size: 15px;
+}
+#info span{
+    font-size: 14px;
+}
+
+/* transport header */
+#transport-hd{
+    font-family: 'NanumSquare', sans-serif;
+}
+#transport-hd .box img{
+    width: 100%;
+}
+
+/* transport */
+#transport .container{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+#transport .container p{
+    line-height: 1.4;
+    font-size: 13px;
+}
+#transport .container img{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#transport .container ul li{
+    font-size: 13px;
+}
+#transport .container ul li:first-child{
+    margin-bottom: 0.5em;
+}
+#transport .container ul li img{
+    width: 20px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+/* call */
+#call{
+    padding: 1em;
+    background-color: #fff8f8;
+    text-align: center;
+}
+#call h2{
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 17px;
+    margin-bottom: 1em;
+}
+#call .phone{
+    width: 30px;
+    margin-bottom: 1em;
+}
+#call .sns{
+    width: 20px;
+}
+#call .sns:nth-child(1){
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+
+/* footer */
+footer{
+    background-color: #ff8f8f;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.3;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
